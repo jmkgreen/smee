@@ -39,3 +39,9 @@ const events = smee.start()
 events.close()
 
 ```
+
+### Docker Image
+
+```
+$ docker run -d --name smee smee --url https://smee.io/your-given-value --target https://my.server.com/endpoint
+```
